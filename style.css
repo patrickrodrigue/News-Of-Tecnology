@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,100&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.typing-animation {
+  animation: blinkCursor 800ms infinite normal,
+    typing 5s steps(40) 1.5s normal both;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 4.5em;
+  right: 30px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+  body {
+    min-height: 100vh;
+    background-color: #5e5e5e;
+    background-image: url("img/digital-1742687.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .btn {
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    font-family: 'Tilt Warp', cursive, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+  }
+
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+   
+  }
+
+  .btn:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  .line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-family: 'Tilt Warp', cursive, sans-serif;
+    color: rgba(255, 255, 255, 0.932);
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    left: 5px;
+  }
+
+  .barmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+  }
+
+  .start {
+    color: rgb(213, 213, 224);
+    background-color: #000000e8;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(88, 87, 87, 0.377);
+    width: 90%;
+    top: 7em;
+    left: 5%;
+  }
+
+  .start:hover {
+    cursor: pointer;
+  }
+
+  .subject {
+    position: absolute;
+    left: -0.7em;
+  }
+
+  .title {
+    position: relative;
+    left: 0.6em;
+    color: rgb(213, 219, 219);
+  }
+
+  .belowtitle {
+    position: relative;
+    left: 2em;
+    font-size: 0.9em;
+  }
+
+  h3 {
+    position: relative;
+    left: 2em;
+    color: rgb(253, 253, 253);
+    font-size: 1.6em;
+  }
+
+  p {
+    position: relative;
+    left: 0.1em;
+    color: #e2e2da;
+    font-size: 1.2em;
+
+  }
+
+  .card1 {
+    display: flex;
+    color: rgb(250, 250, 250);
+    background-color: #000000e8;
+    position: relative;
+    top: 5em;
+    width: 40%;
+    height: 23em;
+    left: 12%;
+    display: inline-block;
+    margin: 0 0.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    opacity: 0;
+    color: rgba(29, 27, 26, 0.911);
+    box-shadow: 0 0 10px rgba(88, 87, 87, 0.377);
+  }
+
+  .noticias {
+    position: relative;
+    top: 10em;
+    background-color: rgb(250, 0, 0);
+    width: 35vh;
+    left: 1em;
+    font-family: sans-serif;
+    opacity: 0;
+  }
+
+  .txtcard {
+    position: relative;
+    left: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+    top: 25px;
+  }
+
+  .titlecard {
+    position: relative;
+    left: 1px;
+    top: 10.2px;
+    color: antiquewhite;
+  }
+
+  .animate__animated.animate__fadeInLeft {
+    animation-duration: 2s;
+  }
+
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
+
+  img {
+    width: 100%;
+  }
+
+  .card2 {
+    display: flex;
+    position: relative;
+    top: 25em;
+    width: 30%;
+    left: 15%;
+    display: inline-block;
+    opacity: 0;
+  }
+
+  .animate__animated.animate__fadeInRight {
+    animation-duration: 2s;
+  }
+
+  :root {
+    --animate-duration: 2s;
+    --animate-delay: 0.9s;
+  }
+
+  .midia {
+    position: relative;
+    top: 900em;
+  }
+
+  .card3 {
+    display: flex;
+    position: relative;
+    top:18em;
+    color: rgb(250, 250, 250);
+    background-color: #000000e8;
+    height: auto;
+    width: 90%;
+    left: 5%;
+    font-family: sans-serif;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(88, 87, 87, 0.377);
+    opacity: 0;
+  }
+  
+
+  .titlecard3 {
+    position: relative;
+    top: 0em;
+    left: 0.5em;
+    color: rgb(255, 255, 255);
+  }
+
+  .paragraph1 {
+    position: relative;
+    top: 0em;
+    font-size: 15px;
+  }
+  .games {
+    position: relative;
+    top: 20em;
+    left: 7em;
+    width: 90%;
+    left: 0.2%;
+    
+  }
+  .games-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 45px;
+
+
+  }
+
+
+
+  .games-list img {
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 5em;
+
+
+
+  }
+
+  .games-list li {
+    display: inline-block;
+    margin-right: 1em;
+    vertical-align: top;
+
+    margin-bottom: 20px;
+  }
+
+  .games-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .games-list li:nth-child(4n+1) {
+    clear: both;
+  }
+
+  .games-list li a {
+    display: block;
+  }
+
+  .games-list img:hover {
+    cursor: pointer;
+    transition: transform .5s;
+    transform: scale(1.1);
+  }
+
+  .gametitulos {
+    color: rgb(0, 0, 0);
+    width: 14.5em;
+    background-color: red;
+    font-family: sans-serif;
+  }
+
+
+  .releases {
+    position: relative;
+    top: 27em;
+    left: 7em;
+    width: 90%;
+    left: 0.2%;
+  }
+ .itens{
+  position: absolute;
+  left: 10em;
+  width:90%;
+  border-color: #000000e8;
+ }
+
+  .releasestitle {
+    color: rgb(0, 0, 0);
+    width: 9em;
+   position: relative;
+   left: -10%;
+    background-color: red;
+    font-family: sans-serif;
+    display: flex;
+   
+  }
+
+ .itens:hover {
+    cursor: pointer;
+  }
+
+  .titleitens {
+    color: rgb(255, 255, 255);
+    width:20% ;
+    font-family: sans-serif;
+  }
+
+  .imgitens {
+    position: relative;
+    width: 40%;
+    top: 1em;
+    left: 3.1em;
+  }
+
+  .txtitens {
+    position: relative;
+    top: -21.7em;
+    left: 43.2em;
+    width: 34.5%;
+    background-color: #000000af;
+  }
+  .video{
+    position: relative;
+    top: 1em;
+    left: 200%;
+ }
+  footer {
+    position: relative;
+    top: 226em;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media  screen and (max-width: 1500px){
+  .title {
+    position: relative;
+    left: 0.5em;
+    color: rgb(219, 213, 213);
+  }
+
+  .belowtitle {
+    position: relative;
+    left:0.2em;
+    font-size: 0.8em;
+  }
+
+  h3 {
+    position: relative;
+    left: 2em;
+    color: rgb(253, 253, 253);
+    font-size: 1.2em;
+  }
+
+  p {
+    position: relative;
+    left: 0.1em;
+    color: #e2dada;
+    font-size: 1em;
+
+  }
+  .card1 {
+   
+    width: 91%;
+    top: 12em;
+    left: 5%;
+    height: 20em;
+
+  }
+  .txtcard {
+    position: relative;
+    left: 5px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+    top: 32px;
+  }
+
+  .titlecard {
+    position: relative;
+    left: 1px;
+    top: 20px;
+    color: antiquewhite;
+  }
+  .card2 {
+     top: 15em;
+    width: 70%;
+  }
+  .card3 {
+   
+
+    width: 91%;
+    left: 5%;
+   height: auto;
+  }
+  .paragraph1 {
+    position: relative;
+    top: -0.1em;
+    font-size: 0.99em;
+  }
+  .titlecard3{
+    font-size: 1.5em;
+  }
+
+  .imgitens {
+    position: relative;
+    min-width: 50%;
+    top: 1em;
+    left: 3.1em;
+  }
+  .itens{
+    position: absolute;
+    left: -5%;
+    width:90%;
+    border-color: #000000e8;
+    word-wrap: wrap;
+   }
+   .txtitens {
+    position: relative;
+    top: 1em;
+    left: 5%;
+    min-width:100%;
+    background-color: #000000af;
+  }
+  .video{
+    position: relative;
+    top: 1em;
+    left: 200%;
+ }
+ footer {
+ 
+  top: 180em;
+
+}
+.titleitens{
+  width: 80%;
+  top:0.7em;
+}
+.btn{
+  font-size: 95%;
+  position: relative;
+  left: 1%;
+}
+.line{
+  position: relative;
+  left: 1px;
+}
+.noticias.releasestitle.gametitulos {
+  width: 90%;
+}
+.titleitens {
+ 
+  width:100% ;
+  font-family: sans-serif;
+
+}
+}
+
+
+
+
+
+
+
